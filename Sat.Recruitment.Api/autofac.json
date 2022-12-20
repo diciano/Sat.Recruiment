@@ -1,0 +1,17 @@
+{
+  "components": [
+    {
+      "type": "Sat.Recruiment.Dao.UserDao, Sat.Recruiment.Dao",
+      "services": [
+        {
+          "type": "Sat.Recruiment.Dao.Interfaces.IUserDao, Sat.Recruiment.Dao"
+        }
+      ],
+      "injectProperties": true,
+      "parameters": {
+        "relativePath": "\\Files\\Users.txt"
+      }
+    }
+
+  ]
+}
